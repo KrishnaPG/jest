@@ -22,6 +22,7 @@
 - `[jest-snapshot]` Make `prettierPath` optional in `SnapshotState` ([#13149](https://github.com/facebook/jest/pull/13149))
 - `[jest-snapshot]` Fix parsing error from inline snapshot files with `JSX` ([#12760](https://github.com/facebook/jest/pull/12760))
 - `[jest-worker]` When a process runs out of memory worker exits correctly and doesn't spin indefinitely ([#13054](https://github.com/facebook/jest/pull/13054))
+- `[jest-util]` Fix EISDIR error when using RAM Disk ([#13157](https://github.com/facebook/jest/pull/13157))
 
 ### Chore & Maintenance
 
