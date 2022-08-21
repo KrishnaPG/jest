@@ -22,7 +22,8 @@
 - `[jest-snapshot]` Make `prettierPath` optional in `SnapshotState` ([#13149](https://github.com/facebook/jest/pull/13149))
 - `[jest-snapshot]` Fix parsing error from inline snapshot files with `JSX` ([#12760](https://github.com/facebook/jest/pull/12760))
 - `[jest-worker]` When a process runs out of memory worker exits correctly and doesn't spin indefinitely ([#13054](https://github.com/facebook/jest/pull/13054))
-
+- `[jest-util]` Fix for EISDIR error when using RAM disk tool for temp folder ([#11135](https://github.com/facebook/jest/issues/11135))
+- 
 ### Chore & Maintenance
 
 - `[*]` [**BREAKING**] Drop support for Node v12 and v17 ([#13033](https://github.com/facebook/jest/pull/13033))
